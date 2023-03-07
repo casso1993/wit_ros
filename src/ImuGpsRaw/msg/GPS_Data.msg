@@ -1,0 +1,11 @@
+sensor_msgs/NavSatFix GPS_Data
+float64 GPS_Yaw
+float64 GPSV
+uint8 satellite
+float64 DOPP
+float64 DOPH
+float64 DOPV
+float64 q0
+float64 q1
+float64 q2
+float64 q3
