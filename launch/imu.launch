@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="imu" type="imu" name="imu_node" output="screen">
+        <param name="IMUserial" type="string" value="/dev/IMU"/>
+        <param name="Baud" type="int" value="115200"/>
+        <param name="IsPose_On" type="bool" value="1"/>
+        <!-- 型号：1.WTGAHRS2 2.HWT906 -->
+        <param name="IMU_type" type="int" value="2"/>
+    </node>
+</launch>
