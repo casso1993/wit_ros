@@ -1,0 +1,6 @@
+<launch>
+    <node name="imu" pkg="imu" type="imu" output="screen">
+        <param name="IMUserial" type="string" value="/dev/IMU"/>
+        <param name="Baud" type="int" value="115200"/>
+    </node>
+</launch>
